@@ -1,6 +1,6 @@
 /**
- * ej2 styles
- */
+* ej2 styles
+*/
 
 $brand-primary: #317ab9 !default;
 $brand-primary-darken-10: #3071a9 !default;
@@ -49,57 +49,31 @@ $brand-danger-font: #a94442 !default;
 $base-font: #000 !default;
 $shadow: #000 !default;
  
-@import 'ej2-base/styles/bootstrap-definition.scss';
+@import 'ej2-variables';
 @import 'ej2-base/styles/all.scss';
 
-@import "ej2/accordion/bootstrap.scss";
-@import "ej2/drop-down-list/bootstrap.scss";
-@import "ej2/input/bootstrap.scss";
-@import "ej2/numerictextbox/bootstrap.scss";
-@import "ej2/maskedtextbox/bootstrap.scss";
-@import "ej2/tooltip/bootstrap.scss";
-@import "ej2/slider/bootstrap.scss";
-@import "ej2/button/bootstrap.scss";
-@import "ej2/spinner/bootstrap.scss";
-@import "ej2/uploader/bootstrap.scss";
-@import "ej2/dialog/bootstrap.scss";
-@import "ej2/popup/bootstrap.scss";
-@import "ej2/drop-down-base/bootstrap.scss";
-@import "ej2/auto-complete/bootstrap.scss";
-@import "ej2/avatar/bootstrap.scss";
-@import "ej2/badge/bootstrap.scss";
-@import "ej2/calendar/bootstrap.scss";
-@import "ej2/card/bootstrap.scss";
-@import "ej2/check-box/bootstrap.scss";
-@import "ej2/color-picker/bootstrap.scss";
-@import "ej2/combo-box/bootstrap.scss";
-@import "ej2/context-menu/bootstrap.scss";
-@import "ej2/datepicker/bootstrap.scss";
-@import "ej2/radio-button/bootstrap.scss";
-@import "ej2/switch/bootstrap.scss";
-@import "ej2/list-view/bootstrap.scss";
-@import "ej2/daterangepicker/bootstrap.scss";
-@import "ej2/datetimepicker/bootstrap.scss";
-@import "ej2/h-scroll/bootstrap.scss";
-@import "ej2/toolbar/bootstrap.scss";
-@import "ej2/menu/bootstrap.scss";
-@import "ej2/tab/bootstrap.scss";
-@import "ej2/treeview/bootstrap.scss";
-@import "ej2/sidebar/bootstrap.scss";
-@import "ej2/diagram/bootstrap.scss";
-@import "ej2/multi-select/bootstrap.scss";
-@import "ej2/document-editor/bootstrap.scss";
-@import "ej2/drop-down-button/bootstrap.scss";
-@import "ej2/pager/bootstrap.scss";
-@import "ej2/timepicker/bootstrap.scss";
-@import "ej2/grid/bootstrap.scss";
-@import "ej2/pivotfieldlist/bootstrap.scss";
-@import "ej2/pivotview/bootstrap.scss";
-@import "ej2/progress-button/bootstrap.scss";
-@import "ej2/recurrence-editor/bootstrap.scss";
-@import "ej2/split-button/bootstrap.scss";
-@import "ej2/button-group/bootstrap.scss";
-@import "ej2/rich-text-editor/bootstrap.scss";
-@import "ej2/schedule/bootstrap.scss";
-@import "ej2/textbox/bootstrap.scss";
-@import "ej2/toast/bootstrap.scss";
+@import 'ej2-buttons/styles/button/bootstrap-definition.scss';
+@import 'ej2-buttons/styles/button/all.scss';
+
+@import 'ej2-calendars/styles/calendar/bootstrap-definition.scss';
+@import 'ej2-calendars/styles/calendar/all.scss';
+
+@import 'ej2-grids/styles/pager/bootstrap-definition.scss';
+@import 'ej2-grids/styles/pager/all.scss';
+
+@import 'ej2-inputs/styles/input/bootstrap-definition.scss';
+@import 'ej2-inputs/styles/numerictextbox/bootstrap-definition.scss';
+@import 'ej2-buttons/styles/button/bootstrap-definition.scss';
+@import 'ej2-buttons/styles/radio-button/bootstrap-definition.scss';
+@import 'ej2-buttons/styles/check-box/bootstrap-definition.scss';
+@import 'ej2-dropdowns/styles/drop-down-list/bootstrap-definition.scss';
+@import 'ej2-popups/styles/dialog/bootstrap-definition.scss';
+@import 'ej2-popups/styles/spinner/bootstrap-definition.scss';
+@import 'ej2-popups/styles/tooltip/bootstrap-definition.scss';
+@import 'ej2-calendars/styles/datepicker/bootstrap-definition.scss';
+@import 'ej2-calendars/styles/datetimepicker/bootstrap-definition.scss';
+@import 'ej2-navigations/styles/toolbar/bootstrap-definition.scss';
+@import 'ej2-navigations/styles/context-menu/bootstrap-definition.scss';
+@import 'ej2-grids/styles/grid/bootstrap-definition.scss';
+@import 'ej2-grids/styles/grid/icons/bootstrap.scss';
+@import 'ej2-grids/styles/grid/all.scss';
