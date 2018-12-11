@@ -18,7 +18,7 @@ This example explains how to render the Essential JS 2 Components with Bootstrap
 
 ## Running the application
 
-* Open the command prompt from the application and install the required npm dependecies by using the below command line.
+* Open the command prompt from the application folder and install the required npm dependecies by using the below command line.
 
 ```sh
 npm install
