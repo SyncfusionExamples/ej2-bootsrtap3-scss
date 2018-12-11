@@ -1,0 +1,17 @@
+{
+  "name": "ej2-bootsrtap3-scss",
+  "version": "1.0.0",
+  "description": "Bootstrap3 SCSS variables with Syncfusion Essential JS 2 components",
+  "scripts": {
+    "watch": "gulp watch",
+    "serve": "gulp serve"
+  },
+  "author": "Syncfusion Inc.",
+  "dependencies": {
+    "@syncfusion/ej2": "^16.3.34",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}
