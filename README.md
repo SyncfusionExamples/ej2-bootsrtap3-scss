@@ -30,4 +30,4 @@ npm install
 npm run serve
 ```
 
-> Change the `~/styles/_bootstrap-variables.scss` and it will be reflecting in the Essential JS 2 components.
+> Change the values in `~/styles/_bootstrap-variables.scss` and it will be reflecting in the Essential JS 2 components.
