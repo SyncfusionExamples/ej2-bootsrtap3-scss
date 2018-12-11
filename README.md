@@ -8,7 +8,7 @@ This example explains how to render the Essential JS 2 Components with Bootstrap
 
 **src/index.js**: The JavaScript file which initiates the EJ2 components.
 
-**src/datasource.js**: The JSON datasource is maintained for Data components. Example: DataGrid
+**src/datasource.js**: The JSON data is maintained for data components. Example: DataGrid
 
 **styles/_bootstrap-variables.scss**: Bootstrap3 SCSS variables are placed inside this file.
 
