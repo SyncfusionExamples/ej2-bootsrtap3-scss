@@ -8,7 +8,7 @@
   },
   "author": "Syncfusion Inc.",
   "dependencies": {
-    "@syncfusion/ej2": "^16.3.34",
+    "@syncfusion/ej2": "16.4.40-beta",
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.0",
     "gulp-sass": "^4.0.2",
