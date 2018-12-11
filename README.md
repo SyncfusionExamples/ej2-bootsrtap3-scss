@@ -24,7 +24,7 @@ This example explains how to render the Essential JS 2 Components with Bootstrap
 npm install
 ```
 
-* Run the below command line to serve the application in the web server. When running this command line, the SCSS files will be compiled into CSS file and stored in `~/src/index.css`.
+* Run the below command line to serve the application in the web browser. When running this command line, the SCSS files will be compiled into CSS file and stored in `~/src/index.css`.
 
 ```sh
 npm run serve
